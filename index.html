@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Yashdeep Stop Watch</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Link to css file-->
+    <link rel="stylesheet" href="watch1.css" />
+</head>
+
+<body>
+    <div id="box">
+    <div id="container">
+        <h1 style="text-align:center" id="stop1">STOP WATCH</h1>
+        <div id="time">
+            <span>
+                <span class="num" id="hr">00</span>
+                <span class="txt">Hr</span>
+            </span>
+            <span>
+                <span class="num" id="min">00</span>
+                <span class="txt">Min</span>
+            </span>
+            <span>
+                <span class="num" id="sec">00</span>
+                <span class="txt">Sec</span>
+            </span>
+            <span>
+            <span class="num" id="count">00</span>
+            <span class="txt">Cs</span>
+            </span>
+        </div>
+<!--button container-->
+        <div id="btn-container">
+            <button class="btn" id="start" onclick="start()">Start</button>
+            <button class="btn" id="stop" onclick="stop()">Stop</button>
+            <button class="btn" id="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+</div>
+<!--link to js file-->
+    <script src="watch2.js"></script>
+</body>
+
+</html>

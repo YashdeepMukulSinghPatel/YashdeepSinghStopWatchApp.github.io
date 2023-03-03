@@ -1,0 +1,98 @@
+ body{
+    background-image: url("https://images.unsplash.com/photo-1606749482582-8c73563adc2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdyYXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"); 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+ }
+ #box{
+    background: linear-gradient(to top, #19d342, #c2dfd9,#e47e12); 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 60vh;
+    border: 2px solid green;
+    border-radius: 2%;
+    overflow: hidden;
+}
+#stop1{
+    color:#ccff00;
+}
+
+#container {
+    color: #d7dfe4;
+}
+
+#footer-container {
+    position: absolute;
+    bottom: 10%;
+}
+
+.num {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.txt {
+    font-size: 40px;
+    font-weight: bold;
+}
+.social-txt {
+    font-size: 20px;
+    color: white;
+}
+
+#btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 10px 35px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #2dde2a;
+}
+
+#start:hover {
+    background-color: rgb(210, 17, 17);
+}
+
+#stop {
+    background-color: #ff0000;
+}
+#stop:hover {
+    background-color: #1dd82a;
+}
+#reset {
+    background-color: #3e60db;
+}
+#reset:hover {
+    background-color: aquamarine;
+}
+@media screen and (max-width:1000px){
+    #time span{
+        font-size: 2rem;
+    }
+    #time{
+        display: flex;
+        flex-direction: column;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+}
