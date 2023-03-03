@@ -23,6 +23,6 @@
                On click of reset stop the watch (if already started) and set timer as 0
 
 # Build With :->
-               * Html
-               * Css
-               * Javascript
+             🟠 HTML 
+             🟠 CSS 
+             🟠 Vanilla Javascript 
